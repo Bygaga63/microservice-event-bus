@@ -16,7 +16,7 @@ app.get('/posts/:id/comments', (req, res) => {
 })
 
 app.post('/events', (req, res) => {
-
+    res.send({})
 })
 
 app.post('/posts/:id/comments', async (req, res) => {
